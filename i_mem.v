@@ -1,19 +1,21 @@
+// Universidade Federal Rural de Pernambuco
+// Curso: Licenciatura em Computação
+// Disciplina: Arquitetura de Computadores
+// Professor: Victor Coutinho
+// Alunos: César Henrique, Kleyton Clementino, Huan Christopher
+// Atividade Prática 2 VA
 
-module i_mem(
-	input [31:0]address,
-	output [31:0] i_out
-);
-reg [31:0] result;
-reg [7:0]celula[320:0];
-assign i_out=result;
-always@(*)
-begin
-	result[31:24]=celula[address];
-	result[23:16]=celula[address +1];
-	result[15:8]=celula[address+2];
-	result[7:0]=celula[address+3];
-end
-initial begin
-	$readmemb("instruction.list",celula);
-end
+module i_mem(address, i_out);
+    input [31:0] address;
+	output reg [31:0] i_out ;
+	
+	reg [31:0] instructions [255:0];
+	
+	initial begin 
+        $readmemb("instruction.list",instructions);
+	end
+	
+	always @ (address) begin
+		i_out  = instructions[address>>2];
+	end
 endmodule 

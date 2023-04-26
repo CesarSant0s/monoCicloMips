@@ -1,5 +1,5 @@
 Assembler report for mono_ciclo_mips
-Wed Apr 05 23:03:01 2023
+Tue Apr 25 21:39:33 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -38,11 +38,11 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Wed Apr 05 23:03:01 2023 ;
+; Assembler Status      ; Successful - Tue Apr 25 21:39:33 2023 ;
 ; Revision Name         ; mono_ciclo_mips                       ;
 ; Top-level Entity Name ; mono_ciclo_mips                       ;
 ; Family                ; Cyclone V                             ;
-; Device                ; 5CSXFC6D6F31I7ES                      ;
+; Device                ; 5CEFA7F27I7                           ;
 +-----------------------+---------------------------------------+
 
 
@@ -67,8 +67,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------+----------------------------------------------------------------------------+
 ; Option         ; Setting                                                                    ;
 +----------------+----------------------------------------------------------------------------+
-; JTAG usercode  ; 0x00AF4CEA                                                                 ;
-; Checksum       ; 0x00AF4CEA                                                                 ;
+; JTAG usercode  ; 0x013ED0C4                                                                 ;
+; Checksum       ; 0x013ED0C4                                                                 ;
 +----------------+----------------------------------------------------------------------------+
 
 
@@ -78,14 +78,14 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Wed Apr 05 23:02:53 2023
+    Info: Processing started: Tue Apr 25 21:39:22 2023
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off mono_ciclo_mips -c mono_ciclo_mips
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4834 megabytes
-    Info: Processing ended: Wed Apr 05 23:03:01 2023
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:07
+    Info: Peak virtual memory: 4869 megabytes
+    Info: Processing ended: Tue Apr 25 21:39:33 2023
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:11
 
 

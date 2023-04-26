@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Wed Apr 05 23:02:11 2023
+Analysis & Synthesis Status : Successful - Tue Apr 25 21:26:29 2023
 Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 Revision Name : mono_ciclo_mips
 Top-level Entity Name : mono_ciclo_mips
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 0
-Total pins : 3
+Total registers : 1054
+Total pins : 215
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

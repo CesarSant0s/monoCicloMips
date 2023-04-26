@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/quartusProjects/monoCicloMips/simulation/qsim
+vmono_ciclo_mips
+!s110 1682458834
+!i10b 1
+!s100 H:27cg3aaFf8aJ7NY2G2F3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Im>1on`YY18dLf4A?`OeHP3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1682458830
+8mono_ciclo_mips.vo
+Fmono_ciclo_mips.vo
+!i122 36
+L0 32 135226
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1682458833.000000
+!s107 mono_ciclo_mips.vo|
+!s90 -work|work|mono_ciclo_mips.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vmono_ciclo_mips_vlg_vec_tst
+!s110 1682458835
+!i10b 1
+!s100 g[bz4c6iSCDc@DA;[i^4W2
+R1
+I?We<UP9VS`2PI7dM=R1nL3
+R2
+R0
+w1682458826
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 37
+L0 30 56
+R3
+r1
+!s85 0
+31
+!s108 1682458834.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
+R5

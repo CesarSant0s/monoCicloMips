@@ -1,0 +1,6 @@
+module SomadorShiftLeft(input [31:0]inSomador,inShiftLeft, output reg [31:0]out);
+    always@(*) begin
+        out=inSomador+(inShiftLeft <<2);
+    end
+    initial out=0;
+endmodule 

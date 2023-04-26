@@ -1,5 +1,5 @@
 Flow report for mono_ciclo_mips
-Wed Apr 05 23:03:09 2023
+Tue Apr 25 21:40:01 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,24 +41,24 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Wed Apr 05 23:03:01 2023       ;
+; Flow Status                     ; Successful - Tue Apr 25 21:39:33 2023       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; mono_ciclo_mips                             ;
 ; Top-level Entity Name           ; mono_ciclo_mips                             ;
 ; Family                          ; Cyclone V                                   ;
-; Device                          ; 5CSXFC6D6F31I7ES                            ;
-; Timing Models                   ; Preliminary                                 ;
-; Logic utilization (in ALMs)     ; 1 / 41,910 ( < 1 % )                        ;
-; Total registers                 ; 0                                           ;
-; Total pins                      ; 3 / 499 ( < 1 % )                           ;
+; Device                          ; 5CEFA7F27I7                                 ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 2,119 / 56,480 ( 4 % )                      ;
+; Total registers                 ; 1054                                        ;
+; Total pins                      ; 215 / 336 ( 64 % )                          ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 0 / 5,662,720 ( 0 % )                       ;
-; Total DSP Blocks                ; 0 / 112 ( 0 % )                             ;
-; Total HSSI RX PCSs              ; 0 / 9 ( 0 % )                               ;
-; Total HSSI PMA RX Deserializers ; 0 / 9 ( 0 % )                               ;
-; Total HSSI TX PCSs              ; 0 / 9 ( 0 % )                               ;
-; Total HSSI PMA TX Serializers   ; 0 / 9 ( 0 % )                               ;
-; Total PLLs                      ; 0 / 15 ( 0 % )                              ;
+; Total block memory bits         ; 0 / 7,024,640 ( 0 % )                       ;
+; Total DSP Blocks                ; 0 / 156 ( 0 % )                             ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0 / 7 ( 0 % )                               ;
 ; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
 +---------------------------------+---------------------------------------------+
 
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/05/2023 23:01:58 ;
+; Start date & time ; 04/25/2023 21:26:10 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; mono_ciclo_mips     ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 2543711158273.168074651703636          ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 2543711158273.168246877035628          ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 100                                    ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; -40                                    ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -94,11 +94,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 4778 MB             ; 00:00:29                           ;
-; Fitter               ; 00:00:38     ; 1.0                     ; 6414 MB             ; 00:01:03                           ;
-; Assembler            ; 00:00:08     ; 1.0                     ; 4833 MB             ; 00:00:07                           ;
-; Timing Analyzer      ; 00:00:07     ; 1.0                     ; 5107 MB             ; 00:00:06                           ;
-; Total                ; 00:01:07     ; --                      ; --                  ; 00:01:45                           ;
+; Analysis & Synthesis ; 00:00:20     ; 1.0                     ; 4844 MB             ; 00:00:35                           ;
+; Fitter               ; 00:12:47     ; 1.1                     ; 6778 MB             ; 00:15:39                           ;
+; Assembler            ; 00:00:11     ; 1.0                     ; 4869 MB             ; 00:00:11                           ;
+; Timing Analyzer      ; 00:00:26     ; 2.0                     ; 5266 MB             ; 00:00:43                           ;
+; Total                ; 00:13:44     ; --                      ; --                  ; 00:17:08                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
